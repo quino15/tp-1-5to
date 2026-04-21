@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int valor[5];
+	cout << "Este programa devuelve los numeros que ingresa en orden";
+	cout << endl;
+	for(int i = 0; i < 5; i++)
+	{
+		cout << "Ingrese el digito" << endl;
+		cin >> valor[i];
+	}
+	cout << "El orden ingresado es: ";
+	for(int j = 0; j < 5; j++)
+	{
+		cout << valor[j] << ", ";
+	}
+}
