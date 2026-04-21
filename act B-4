@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int datos[8] = {8, 9, 3, 6, 7, 1, 4, 2};
+	int posicion;
+	cout << "Ingrese un numero que va a indicar la posicion del vector del 0 al 7: ";
+	cin >> posicion;
+	cout << endl;
+	switch(posicion){
+		case 0:
+			cout << "El valor que estaba en esa posicion es: " << datos[0];
+			return 0;
+		case 1:
+			cout << "El valor que estaba en esa posicion es: " << datos[1];
+			return 0;
+		case 2:
+			cout << "El valor que estaba en esa posicion es: " << datos[2];
+			return 0;
+		case 3:
+			cout << "El valor que estaba en esa posicion es: " << datos[3];
+			return 0;
+		case 4:
+			cout << "El valor que estaba en esa posicion es: " << datos[4];
+			return 0;
+		case 5:
+			cout << "El valor que estaba en esa posicion es: " << datos[5];
+			return 0;
+		case 6:
+			cout << "El valor que estaba en esa posicion es: " << datos[6];
+			return 0;
+		case 7:
+			cout << "El valor que estaba en esa posicion es: " << datos[7];
+			return 0;
+		default: 
+			cout << "Revise bien que ingreso un valor entre el 0 y el 7, el programa se cerrara";
+			return 0;
+	}
+}
