@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	const int LIMITE = 10;
+	int calif[LIMITE] = {6, 6, 6, 6, 6, 6, 6, 6, 6, 6};
+	for(int j = 0; j < 10; j++)
+	{
+		cout << calif[j] << ", ";
+	}
+}
