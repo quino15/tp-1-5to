@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int fin = 1;
+	int maximo_ciclo = 0;
+	int suma_total = 0;
+	float promedio = 0;
+	int valor[fin];
+	float promedio_total = 0;
+	while(fin != 0)
+	{
+		cout << "Ingrese el numero: ";
+		cin >> fin;
+		suma_total = suma_total + fin;
+		if(fin == 0)
+		{
+			cout << "La suma total de los numeros es de: " << suma_total << endl;
+			promedio_total = suma_total / promedio;
+			cout << "El promedio de los numeros es de: " << promedio_total;
+			return 0;
+		}
+		promedio = promedio + 1;
+		valor[fin] = fin;
+	}
+}
